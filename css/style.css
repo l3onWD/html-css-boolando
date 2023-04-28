@@ -120,6 +120,27 @@ header {
     padding: 5px;
 }
 
+
+/* Navbar Buttons */
+.navbar-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Button */
+.btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.btn.btn-light {
+    color: #fff;
+}
+
+
 /* Card */
 .card-top {
     position: relative;

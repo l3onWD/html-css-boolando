@@ -6,6 +6,8 @@
     --color-dark: #1a1a1a;
 
     --container: 1080px;
+
+    --header-height: 70px;
 }
 
 
@@ -18,7 +20,9 @@
 
 
 /* Generics */
-
+body {
+    padding-top: calc(var(--header-height) + 20px);
+}
 
 
 /* Utils */
@@ -33,4 +37,19 @@
 
 
 
+/* Debug */
+.border {
+    border: 2px dashed black
+}
+
 /* ====================================== */
+
+/* Header */
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-orange);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.8);
+}

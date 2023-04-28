@@ -9,7 +9,6 @@
 
     --header-height: 70px;
     --header-gap-y: calc(var(--header-height) + 30px);
-    --footer-height: 100px;
     --footer-gap-y: 30px;
 
     --layout-gap: 10px;
@@ -259,10 +258,9 @@ footer {
 }
 
 .footer-content {
-    height: var(--footer-height);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 20px 0;
 }
 
 

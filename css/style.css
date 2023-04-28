@@ -74,11 +74,24 @@ header {
     width: 100%;
     background-color: var(--color-orange);
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.8);
-    z-index: 1;
+    z-index: 3;
 }
 
 
 /* Card */
+.card:hover .card-top::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-image: url('../img/1b.webp');
+    background-size: cover;
+    z-index: 1;
+}
+
 .card-top {
     position: relative;
 }
@@ -102,6 +115,7 @@ header {
     background-color: #fff;
     font-size: 18px;
     padding: 14px;
+    z-index: 2;
 
     cursor: pointer;
 }
@@ -115,6 +129,7 @@ header {
     bottom: 40px;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 
 .card-bottom {

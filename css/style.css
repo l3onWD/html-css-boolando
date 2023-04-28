@@ -141,7 +141,7 @@ header {
 .btn {
     display: inline-block;
     border: 1px solid transparent;
-    font-size: 16px;
+    font-size: 18px;
     padding: 6px;
 }
 
@@ -258,3 +258,6 @@ footer {
 
 
 /* Footer Social */
+.footer-social ul {
+    display: flex;
+}

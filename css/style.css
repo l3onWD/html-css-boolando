@@ -68,7 +68,6 @@ body {
 
 /* Header */
 header {
-    height: 70px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -76,6 +75,31 @@ header {
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.8);
     z-index: 1;
 }
+
+
+/* Navbar */
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar > * {
+    flex-basis: calc(100% / 3);
+}
+
+
+/* Navbar Logo */
+.navbar-logo {
+    text-align: center;
+}
+
+.navbar-logo img {
+    height: 50px;
+}
+
+
+/* Navbar Menu */
 
 
 /* Card */

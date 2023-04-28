@@ -1,0 +1,32 @@
+/* Variables */
+:root {
+
+    --container: 1080px;
+}
+
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Generics */
+
+
+
+/* Utils */
+.container {
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Layout */
+
+
+
+/* ====================================== */

@@ -28,6 +28,14 @@ body {
     padding-top: calc(var(--header-height) + 20px);
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /* Utils */
 .container {
@@ -100,7 +108,17 @@ header {
 
 
 /* Navbar Menu */
+.navbar-menu ul {
+    display: flex;
+}
 
+.navbar-menu a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
 
 /* Card */
 .card-top {

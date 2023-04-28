@@ -102,6 +102,12 @@ header {
     background-color: #fff;
     font-size: 18px;
     padding: 14px;
+
+    cursor: pointer;
+}
+
+.card-favorite:hover {
+    color: var(--color-red);
 }
 
 .card-tags {

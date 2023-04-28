@@ -224,6 +224,12 @@ header {
 
 /* Footer */
 footer {
-    height: 100px;
+    color: #fff;
     background-color: var(--color-dark);
+}
+
+.footer-content {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
 }

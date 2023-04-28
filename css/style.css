@@ -8,6 +8,8 @@
     --container: 1080px;
 
     --header-height: 70px;
+
+    --layout-gap: 10px;
 }
 
 
@@ -34,7 +36,17 @@ body {
 
 
 /* Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(var(--layout-gap) * -1);
+    margin-right: calc(var(--layout-gap) * -1);
+}
 
+.col {
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+}
 
 
 /* Debug */

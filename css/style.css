@@ -36,6 +36,15 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-bottom: 8px;
+}
+
 
 /* Utils */
 .container {
@@ -69,7 +78,7 @@ a {
 
 /* Debug */
 .border {
-    border: 2px dashed black
+    border: 2px dashed #fff;
 }
 
 /* ====================================== */
@@ -226,10 +235,26 @@ header {
 footer {
     color: #fff;
     background-color: var(--color-dark);
+    margin-top: 30px;
 }
 
 .footer-content {
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+
+/* Footer Nav */
+.footer-nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-nav a {
+    color: #fff;
+}
+
+
+/* Footer Social */

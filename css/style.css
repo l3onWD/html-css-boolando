@@ -36,6 +36,14 @@ body {
     margin-right: auto;
 }
 
+.bg-red {
+    background-color: var(--color-red);
+}
+
+.bg-green {
+    background-color: var(--color-green);
+}
+
 
 /* Layout */
 .row {
@@ -119,4 +127,13 @@ header {
 
 .card-price-old {
     text-decoration: line-through;
+}
+
+
+/* Tag */
+.tag {
+    display: inline-block;
+    padding: 4px 10px;
+    color: #fff;
+    font-weight: bold;
 }

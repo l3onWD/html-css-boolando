@@ -183,13 +183,14 @@ header {
 
 .card-img-secondary {
     display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .card:hover .card-img-secondary {
     display: block;
+}
+
+.card:hover .card-img-primary {
+    display: none;
 }
 
 .card-favorite {
